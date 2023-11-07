@@ -53,9 +53,22 @@
      &nbsp; Clinic &nbsp; <i class="fa fa-medkit" style="color:orange"></i>
 </div>
     
-<div style="display: block; margin-left: auto; margin-right: auto; width: 60%;">
-    <div class="folium-map" id="map_39476409c7b575c422ac63247da9157e" ></div>
+
+<div style="position: relative; width: 950px; height: 700px; margin-left: auto; margin-right: auto;">
+    <div id="map" class="folium-map" style="width: 100%; height: 100%;"></div>
+    <div style="position: absolute; 
+         bottom: 10px; left: 10px; width: 150px; height: 90px; 
+         border:2px solid grey; z-index:9999; font-size:14px;
+         background-color: white; opacity: 0.7;">
+        &nbsp; <b>Amenity Legend</b> <br>
+        &nbsp; School &nbsp; <i class="fa fa-graduation-cap" style="color:blue"></i><br>
+        &nbsp; Doctor &nbsp; <i class="fa fa-hospital-symbol" style="color:green"></i><br>
+        &nbsp; Clinic &nbsp; <i class="fa fa-medkit" style="color:orange"></i>
+    </div>
 </div>
+
+</div>
+
 
 <h4>Description</h4>
     <p>Focusing on the theme of safety and emergency services in the context of educational institutions, we can filter out the relevant variables. Since you want to focus on education-related amenities, we will choose "school" and "doctors" for this visualization.
